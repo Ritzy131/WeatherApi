@@ -1,0 +1,5 @@
+docker build -t ritesh69patel/weatherapi .
+
+docker run -d --rm -p 8080:80 --name weatherapi ritesh69patel/weatherapi
+
+docker push ritesh69patel/weatherapi

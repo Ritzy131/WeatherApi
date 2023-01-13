@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Azure_DevOps_Provision_API_Infrastructure_using_Terraform": {
+    "WeatherApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,

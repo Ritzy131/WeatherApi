@@ -4,7 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Azure_DevOps_Provision_API_Infrastructure_using_Terraform</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
