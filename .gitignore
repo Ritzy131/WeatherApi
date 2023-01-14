@@ -12,6 +12,7 @@
 /Stash/
 Stash/
 azuresecrets.txt
+.terraform
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

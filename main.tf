@@ -19,6 +19,11 @@ terraform {
         key                  = "terraform.tfstate"
     }
 }
+// the varaible name "imagebuild" has to correlate with the end part of TF_VAR_imagebuild: $(tag) in azure-pipelines.yml
+variable "imagebuild" {
+  type        = string
+  description = "Latest Image Build"
+}
 
 resource "azurerm_resource_group" "tf_test" {
   name="tfmainrg"
@@ -36,7 +41,7 @@ resource "azurerm_container_group" "tfcg_test" {
 
   container {
       name              = "weatherapi"
-      image             = "ritesh69patel/weatherapi"
+      image             = "ritesh69patel/weatherapi:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
         ports {
