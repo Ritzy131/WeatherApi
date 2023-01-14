@@ -5,11 +5,27 @@ docker run -d --rm -p 8080:80 --name weatherapi ritesh69patel/weatherapi
 docker push ritesh69patel/weatherapi
 
 Create new repo on github.
-
+--------------------------
 git remote add origin git@github.com:Ritzy131/WeatherApi.git
 (git remote add origin git@devops:Ritzy131/WeatherApi.git)
 git branch -M main
 git push -u origin main
 
 list azure locations.
+---------------------
 az account list-location
+
+terraform commands
+---------
+init
+plan
+apply
+destroy
+
+1st do init
+Then ensure you are logged into azure (az login)
+
+Then do terraform plan
+
+IF all is good, then do terraform apply
+
