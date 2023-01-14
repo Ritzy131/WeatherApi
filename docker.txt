@@ -20,7 +20,7 @@ terraform commands
 init
 plan
 apply
-destroy
+destroy 
 
 1st do init
 Then ensure you are logged into azure (az login)
@@ -28,4 +28,15 @@ Then ensure you are logged into azure (az login)
 Then do terraform plan
 
 IF all is good, then do terraform apply
+
+Authenticate to azure from terraform
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret
+
+see video @ 50 mins for details how to configure in azure
+
+DevOps
+Create a Docker Hub Service Connection
+Create a Azure Resource Manager Connection
+
 
