@@ -11,6 +11,7 @@ terraform {
   }
 }
 
+
 resource "azurerm_resource_group" "tf_test" {
   name="tfmainrg"
   location = "UKSouth"
