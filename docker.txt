@@ -10,3 +10,6 @@ git remote add origin git@github.com:Ritzy131/WeatherApi.git
 (git remote add origin git@devops:Ritzy131/WeatherApi.git)
 git branch -M main
 git push -u origin main
+
+list azure locations.
+az account list-location
