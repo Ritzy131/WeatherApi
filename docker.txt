@@ -40,4 +40,4 @@ Create a Docker Hub Service Connection
 Create a Azure Resource Manager Connection
 
 
-
+Used localstorageaccount12 to store terraform.tfstate file
